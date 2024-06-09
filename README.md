@@ -27,10 +27,10 @@ STEPS FOLLOWED
 4. Creating a copy of the dataset.
 5. Statistical info about dataset.
 6. Getting information on dataset.
-7. Checking unique values in State column and encoding them (I have used label encoder).
+7. Encoding dataset.
 8. Scaling the Dataset. I have used (standard scaler).
 9. Splitting data into training set and testing set.
-10. Importing four regression models (Linear Regression, KNN Regressor, Decision Tree Regressor, Random Forest Regressor
+10. Importing five regression models (Linear Regression, KNN Regressor, Decision Tree Regressor, Random Forest Regressor
     and Support Vector Regressor.
 12. Making objects of each model and creating a list of  the objects.
 13. Iterating through the models list, fitting training data in each model one by one.
