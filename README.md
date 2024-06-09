@@ -1,11 +1,13 @@
 # all_regression_models
-Tried Linear Regression, KNN Regressor, Decision Tree Regressor and Random Forest Regressor in same dataset.
+Tried Linear Regression, KNN Regressor, Decision Tree Regressor and Random Forest Regressor, Support Vector Regressor 
+in same dataset.
 
 In ridge-lasso-regression repository where I applied linear regression along with ridge and lasso, we saw that 
 the highest accuracy we are getting with test dataset is 43.113%, so I tried applying three other regression models
 - KNN Regressor
 - Decision Tree Regressor
 - Random Forest Regressor
+- Support Vector Regressor
 
 PROBLEM STATEMENT
 
@@ -28,11 +30,12 @@ STEPS FOLLOWED
 7. Checking unique values in State column and encoding them (I have used label encoder).
 8. Scaling the Dataset. I have used (standard scaler).
 9. Splitting data into training set and testing set.
-10. Importing four regression models (Linear Regression, KNN Regressor, Decision Tree Regressor, Random Forest Regressor.
-11. Making objects of each model and creating a list of  the objects.
-12. Iterating through the models list, fitting training data in each model one by one.
-13. Making predictions with test data using each model one by one.
-14. Checking accuracy of each model one by one.
+10. Importing four regression models (Linear Regression, KNN Regressor, Decision Tree Regressor, Random Forest Regressor
+    and Support Vector Regressor.
+12. Making objects of each model and creating a list of  the objects.
+13. Iterating through the models list, fitting training data in each model one by one.
+14. Making predictions with test data using each model one by one.
+15. Checking accuracy of each model one by one.
 
 CONCLUTION
 
